@@ -44,7 +44,7 @@ custom_objects = {
 
 
 # Working Data Frame
-df = pd.read_csv("C:/Users/ANKUR KUMAR/Data Science/Projects/ML/Recommender System/Data.csv")
+df = pd.read_csv("Data.csv")
 
 # Loading Model
 model = load_model('big_movies_model.h5', custom_objects=custom_objects)
