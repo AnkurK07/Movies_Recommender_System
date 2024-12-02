@@ -1,3 +1,9 @@
+# Movies Recommender System
+A movie recommender system using matrix factorization is a collaborative filtering technique that predicts user preferences by analyzing patterns in user-item interaction data. It represents the user-item interaction matrix, where rows correspond to users and columns to movies, as a product of two smaller matrices: a user matrix and an item matrix. Each entry in these matrices represents latent factors that capture underlying patterns, such as user preferences and movie attributes. Matrix factorization methods, such as Singular Value Decomposition (SVD) or Alternating Least Squares (ALS), decompose the matrix to uncover these latent features, enabling the prediction of missing entries in the interaction matrix. By learning these latent factors, the system can recommend movies a user is likely to enjoy based on their previous interactions and the preferences of similar users. This approach is computationally efficient, scalable, and effective in handling sparse datasets, making it a popular choice for building personalized movie recommendation systems. [Click Here for App](https://movierecommsys.streamlit.app/) <br><br>
+
+![image](https://github.com/user-attachments/assets/86668525-94f3-4866-965d-a1eb45cdd5d0)
+
+
 # Matrix Factorization
 
 Matrix factorization is a simple embedding model. Given the feedback matrix $A \in R^{m \times n}$, where m is the number of users (or queries) and n is the number of items, the model learns :
